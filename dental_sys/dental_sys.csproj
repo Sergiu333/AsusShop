@@ -154,6 +154,12 @@
     <Compile Include="Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddPc.resx">
@@ -176,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -230,6 +239,7 @@
     <Content Include="assets\minus-button.png" />
     <Content Include="assets\online-shop.png" />
     <Content Include="assets\online-shopping.png" />
+    <Content Include="assets\productPc\ProArt2.png" />
     <Content Include="assets\remove.png" />
     <Content Include="assets\shopping-cart.png" />
     <Content Include="assets\shopping.png" />
