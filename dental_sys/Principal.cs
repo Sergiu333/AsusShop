@@ -80,6 +80,9 @@ namespace dental_sys
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            label_val.Text = "Product";
+            guna2PictureBox_val.Image = Properties.Resources.person__1_;
+            container(new Product());
            
         }
     }
